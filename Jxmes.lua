@@ -123,6 +123,9 @@ INFINITEYIELD.TextColor3 = Color3.fromRGB(255, 255, 255)
 INFINITEYIELD.TextScaled = true
 INFINITEYIELD.TextSize = 14.000
 INFINITEYIELD.TextWrapped = true
+INFINITEYIELD.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
 
 UICorner.CornerRadius = UDim.new(1, 0)
 UICorner.Parent = INFINITEYIELD
@@ -165,6 +168,9 @@ DEX.TextColor3 = Color3.fromRGB(255, 255, 255)
 DEX.TextScaled = true
 DEX.TextSize = 14.000
 DEX.TextWrapped = true
+DEX.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/DylanBlan/Dex-V5-leak/main/Dex%20V5.lua'))()
+end)
 
 UICorner_3.CornerRadius = UDim.new(1, 0)
 UICorner_3.Parent = DEX
@@ -207,6 +213,9 @@ jxmesclient.TextColor3 = Color3.fromRGB(255, 255, 255)
 jxmesclient.TextScaled = true
 jxmesclient.TextSize = 14.000
 jxmesclient.TextWrapped = true
+jxmesclient.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
 
 UICorner_5.CornerRadius = UDim.new(1, 0)
 UICorner_5.Parent = jxmesclient
@@ -249,6 +258,9 @@ owlhub.TextColor3 = Color3.fromRGB(255, 255, 255)
 owlhub.TextScaled = true
 owlhub.TextSize = 14.000
 owlhub.TextWrapped = true
+owlhub.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
 
 UICorner_7.CornerRadius = UDim.new(1, 0)
 UICorner_7.Parent = owlhub
@@ -291,6 +303,9 @@ VGHub.TextColor3 = Color3.fromRGB(255, 255, 255)
 VGHub.TextScaled = true
 VGHub.TextSize = 14.000
 VGHub.TextWrapped = true
+VGHub.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
 
 UICorner_9.CornerRadius = UDim.new(1, 0)
 UICorner_9.Parent = VGHub
@@ -333,6 +348,9 @@ REmote.TextColor3 = Color3.fromRGB(255, 255, 255)
 REmote.TextScaled = true
 REmote.TextSize = 14.000
 REmote.TextWrapped = true
+REmote.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/hxN2aKj8'))()
+end)
 
 UICorner_11.CornerRadius = UDim.new(1, 0)
 UICorner_11.Parent = REmote
